@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+body {
+    background: rgb(37, 146, 208);
+    background: linear-gradient(90deg, rgba(37, 146, 208, 1) 27%, rgba(32, 200, 234, 1) 100%);
+    font-family: 'Roboto', sans-serif;
+}
+
+#logins{
+    background-color: white;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+#logins .login p{
+    font-weight: bold;
+}
