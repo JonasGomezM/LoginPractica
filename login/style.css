@@ -18,7 +18,58 @@ body{
 form{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.466);
+    border-radius: 20px;
     text-align: center;
     padding: 2rem;
+}
+
+form .title{
+    color: rgb(24, 27, 71);
+    font-size: 1,5em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+form label{
+    margin-bottom: 20px;
+}
+
+form label .bx{
+    color: rgb(24, 27, 71);
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+form label input{
+    outline: none;
+    border: none;
+    color: rgb(24, 27, 71);
+    border-bottom: rgb(24, 27, 71) 1px solid;
+    border-radius: 6px;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+form label input::placeholder{
+    color: rgba(49, 52, 100, 0.527);
+}
+
+form .link{
+    color: rgb(24, 27, 71);
+    margin-bottom: 15px;
+}
+
+form button{
+    color: white;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(24, 27, 71);
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+form button:hover{
+    background-color: rgb(6, 79, 175);
 }
