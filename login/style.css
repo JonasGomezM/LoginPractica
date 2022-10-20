@@ -41,6 +41,10 @@ form label .bx{
     margin-right: 10px;
 }
 
+form label .bx:hover{
+    color: rgb(6, 79, 175);
+}
+
 form label input{
     outline: none;
     border: none;
