@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+:root {
+    --main-bg-color: rgb(189, 69, 69);
+    --hover-bg-color: rgb(255, 174, 0);
+    --input-bg-color: rgb(196, 196, 196);
+  }
 
 *{
     margin: 0;
@@ -12,7 +17,8 @@ body{
     align-items: center; /*Centrar Vertical*/
     justify-content: center; /*Centrar horizontalmente*/
     min-height: 100vh; /*Esto es para que se adapte al tamaño de la pantalla*/
-    background: linear-gradient(90deg, rgba(37,146,208,1) 27%, rgba(32,200,234,1) 100%);
+    background: rgb(208,143,37);
+    background: linear-gradient(162deg, rgba(208,143,37,1) 27%, rgba(209,54,23,1) 100%);
 }
 
 form{
@@ -22,10 +28,11 @@ form{
     border-radius: 20px;
     text-align: center;
     padding: 2rem;
+    box-shadow: 10px 10px 13px -11px rgba(0,0,0,0.64);
 }
 
 form .title{
-    color: rgb(24, 27, 71);
+    color: var(--main-bg-color);
     font-size: 1,5em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -36,31 +43,31 @@ form label{
 }
 
 form label .bx{
-    color: rgb(24, 27, 71);
+    color: var(--main-bg-color);
     font-size: 30px;
     margin-right: 10px;
 }
 
 form label .bx:hover{
-    color: rgb(6, 79, 175);
+    color: var(--hover-bg-color);
 }
 
 form label input{
     outline: none;
     border: none;
-    color: rgb(24, 27, 71);
-    border-bottom: rgb(24, 27, 71) 1px solid;
+    color: var(--main-bg-color);
+    border-bottom: var(--main-bg-color) 1px solid;
     border-radius: 6px;
     padding: 0 5px;
     font-size: 18px;
 }
 
 form label input::placeholder{
-    color: rgba(49, 52, 100, 0.527);
+    color: var(--input-bg-color);
 }
 
 form .link{
-    color: rgb(24, 27, 71);
+    color: var(--main-bg-color);
     margin-bottom: 15px;
 }
 
@@ -68,12 +75,12 @@ form button{
     color: white;
     font-size: 20px;
     border: none;
-    background-color: rgb(24, 27, 71);
+    background-color: var(--main-bg-color);
     padding: 10px 15px;
     cursor: pointer;
     border-radius: 6px;
 }
 
 form button:hover{
-    background-color: rgb(6, 79, 175);
+    background-color: var(--hover-bg-color);
 }
